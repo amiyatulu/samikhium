@@ -1,0 +1,68 @@
+.top {
+    position: absolute;
+    width:100%;
+    top:0;
+}
+.leftcolumnone {
+    height: 650px;   
+    background-image: url("./image/library.jpg");
+    background-color: #EAECEB;
+    background-size: cover;
+}
+.rightcolumnone {
+    height: 650px;    
+}
+
+.rowone {
+    height: 350px;
+    background-color: #F6F3F0 ;
+}
+
+
+
+.rowtwo {
+    height: 300px;
+    background-color: #C8DDD7 ;
+}
+
+
+@font-face {
+    font-family: dindalove;
+    src: url("./fonts/Dindalove.ttf")
+}
+
+.samikhiumtitle {
+    font-family: dindalove;
+    font-size: 50px;
+    animation: fadeInLeft ease 10s;
+}
+.samikhiumtext {
+    font-family: dindalove;
+    font-size: 40px;
+    animation: fadeInLeft ease 15s;
+}
+
+.samikhiumdescription {
+    padding:50px;
+    animation: fadeInLeft ease 15s;
+}
+
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }
+ 
+ .imagecss {
+     padding-top: 100px;
+     animation: fadeInLeft ease 5s;
+ }
+ .ball {
+    animation: fadeInLeft ease 5s;
+ }
+ 

@@ -1,0 +1,38 @@
+[package]
+name = "samikhium"
+version = "0.1.0"
+authors = ["Amiya Behera <amiyatulu@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+chrono = "0.4.19"
+sha3 = "0.9.1"
+near-sdk = "3.1.0"
+wee_alloc = "0.4.5"
+near-contract-standards = { path = "../near-contract-standards"}
+serde = "1.0.69"
+rand = "0.7.3"
+
+
+
+[dev-dependencies]
+near-sdk-sim = "3.1.0"
+
+
+
+[profile.release]
+codegen-units = 1
+# Tell `rustc` to optimize for small code size.
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true
+
+[workspace]
+members = []
