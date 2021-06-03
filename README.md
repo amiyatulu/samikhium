@@ -5,3 +5,8 @@ Samikhium is a blogging and video app, build on coordination games to separate f
 Presentation:
 https://docs.google.com/presentation/d/10SfJBDeR-14zYCioWSPU3TWRx4iiDmaSUB-Zf_82oa4/edit?usp=sharing
 
+Demo Video:
+Video:  
+
+[![Samikhium](http://img.youtube.com/vi/CIX-w0qf4CM/0.jpg)](http://www.youtube.com/watch?v=CIX-w0qf4CM "Samkhium")
+
