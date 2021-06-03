@@ -9,3 +9,7 @@ Demo Video:
 
 [![Samikhium](http://img.youtube.com/vi/CIX-w0qf4CM/0.jpg)](http://www.youtube.com/watch?v=CIX-w0qf4CM "Samkhium")
 
+Demo App Link:  
+
+https://samikhium.vercel.app/  
+
